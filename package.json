@@ -2,5 +2,17 @@
   "name": "design-patterns",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.15.0",
+    "jest": "^27.1.0",
+    "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  }
 }
