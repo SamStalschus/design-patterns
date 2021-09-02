@@ -1,4 +1,3 @@
-import { response } from 'express'
 import NPromise from '../newPromise.js'
 
 describe('Promise', () => {
